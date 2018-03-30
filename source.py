@@ -10,7 +10,7 @@ presentTime = time.strftime("%H:%M:%S")
 print("The present time is " + presentTime)
 
 
-alarmTime = input("Set the alarm as H:M:S(24hour format):")
+alarmTime = input("Set the alarm as HH:MM:SS(24hour format):")
 
 
 while(presentTime != alarmTime):
